@@ -1,6 +1,6 @@
 export default function LeftExperience({ title, desc, date, company }) {
   return (
-    <div className="flex justify-between h-48">
+    <div className="flex justify-between ">
       {/* LEFT */}
       <div className="w-1/3 ">
         {/* JOB TITLE */}

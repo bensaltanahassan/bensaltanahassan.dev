@@ -177,12 +177,12 @@ const AboutPage = () => {
             <motion.div
               initial={{ x: "-300px" }}
               animate={isExperienceRefInView ? { x: "0" } : {}}
-              className=""
+              className="flex flex-col gap-8"
             >
               {/* EXPERIENCE LIST ITEM */}
               {experiences.map((exp, i) => {
                 return (
-                  <div key={i}>
+                  <div key={i} className="">
                     {i % 2 === 0 ? (
                       <LeftExperience
                         title={exp.title}
