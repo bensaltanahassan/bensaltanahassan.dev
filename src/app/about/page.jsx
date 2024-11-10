@@ -21,12 +21,6 @@ const experiences = [
     company: "YaneCode Digital",
   },
   {
-    title: "Freelance Developer",
-    desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
-    date: "2023-Present",
-    company: "Freelance Developer",
-  },
-  {
     title: "Full Stack Web Developer Intern",
     desc: "Development of a restaurant management platform with the MATRIX web application using Angular & .NET. Designed exclusively for administrators, it enables efficient management of restaurant operations.",
     date: "July to August 2024",
@@ -37,6 +31,12 @@ const experiences = [
     desc: "Development of a medical management platform featuring a web application and a Flutter mobile app, supported by a PHP API to enable platform functionalities. The platform is designed for healthcare providers and patients to manage consultations and schedule follow-up appointments.",
     date: "July to September 2024",
     company: "WerinGroup",
+  },
+  {
+    title: "Freelance Developer",
+    desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
+    date: "2023-Present",
+    company: "Freelance Developer",
   },
 ];
 
