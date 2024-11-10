@@ -62,8 +62,43 @@ const bacDocsApp = {
   desc: "An app for Moroccan students across all disciplines. It provides access to all documents, tutorials, assignments, previous national exams, and tools to help them succeed in the baccalaureate.",
   img: "/projects/bac.jpg",
 };
-const more = {
+const plantsApp = {
   id: 11,
+  color: "from-blue-300 to-violet-300",
+  title: "Plant Health Classification",
+  desc: "The app can take plant pictures, detect if the plant is healthy or not, and provide statistics about its condition.",
+  img: "/projects/plants.jpeg",
+};
+const matrix = {
+  id: 12,
+  color: "from-blue-300 to-violet-300",
+  title: "MATRIX",
+  desc: "Matrix App for restaurant management, developed using Angular & .NET, designed exclusively for administrators to efficiently manage restaurant operations.",
+  img: "/projects/matrix.png",
+};
+const opo = {
+  id: 13,
+  color: "from-blue-300 to-violet-300",
+  title: "Opo Medical",
+  desc: "OPO Medical App for managing medical consultations, developed using Flutter and PHP, designed for healthcare providers and patients to efficiently handle consultations and follow-up appointments.",
+  img: "/projects/opo.png",
+};
+const springbootshooping = {
+  id: 14,
+  color: "from-blue-300 to-violet-300",
+  title: "Shopping Application",
+  desc: "A shopping application that enables users to browse, purchase, and manage products in a dynamic and intuitive environment, with real-time communication for an enhanced shopping experience.",
+  img: "/projects/springboot-shooping.jpeg",
+};
+const springbootbook = {
+  id: 15,
+  color: "from-blue-300 to-violet-300",
+  title: "Book Social Network",
+  desc: "A social network dedicated to books, allowing users to share, comment on, and discover books in an interactive and engaging environment.",
+  img: "/projects/springboot-book.png",
+};
+const more = {
+  id: 16,
   color: "from-violet-300 to-purple-300",
   title: "Other Projects",
   desc: "I have developed many other projects, for both clients and personal use. I am always ready to take on new challenges and develop new projects.",
@@ -79,6 +114,11 @@ const items = [
   studentManagementApp,
   expressNewsApp,
   bacDocsApp,
+  plantsApp,
+  matrix,
+  opo,
+  springbootshooping,
+  springbootbook,
   more,
 ];
 
@@ -86,7 +126,7 @@ const PortfolioPage = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["0%", "-90%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["15%", "-100%"]);
 
   return (
     <motion.div
@@ -99,7 +139,7 @@ const PortfolioPage = () => {
         <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
           My Works
         </div>
-        <div className="sticky top-0 flex h-screen gap-4 items-center">
+        <div className="sticky top-0 flex h-screen gap-3 items-center">
           <motion.div style={{ x }} className="flex">
             <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
             {items.map((item) => (
@@ -150,12 +190,14 @@ const PortfolioPage = () => {
               </textPath>
             </text>
           </motion.svg>
-          <Link
-            href="/contact"
-            className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center cursor-pointer"
-          >
-            Hire Me
-          </Link>
+          <button>
+            <Link
+              href="/contact"
+              className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center cursor-pointer"
+            >
+              Hire Me
+            </Link>
+          </button>
         </div>
       </div>
     </motion.div>

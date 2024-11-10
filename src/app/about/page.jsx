@@ -9,22 +9,10 @@ import RightExperience from "./RightExperience";
 
 const experiences = [
   {
-    title: "Mobile Developer Intern",
-    desc: "Design and development of a mobile application for managing a multiple-choice questionnaire, allowing students to take previous entrance exams for Moroccan prestigious schools.",
-    date: "July to August 2022",
-    company: "YaneCode Digital",
-  },
-  {
-    title: "Mobile Developer Intern",
-    desc: "Design and development of a real-time bus tracking mobile application (for standard users and drivers) using Flutter and Firebase. Enables users to locate and track buses, calculate the actual distance between the user and the bus, as well as the approximate arrival time.",
-    date: "July to September 2023",
-    company: "YaneCode Digital",
-  },
-  {
-    title: "Full Stack Web Developer Intern",
-    desc: "Development of a restaurant management platform with the MATRIX web application using Angular & .NET. Designed exclusively for administrators, it enables efficient management of restaurant operations.",
-    date: "July to August 2024",
-    company: "SILIAD",
+    title: "Freelance Developer",
+    desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
+    date: "2023-Present",
+    company: "Freelance Developer",
   },
   {
     title: "PFA Mobile Developer Intern",
@@ -33,10 +21,22 @@ const experiences = [
     company: "WerinGroup",
   },
   {
-    title: "Freelance Developer",
-    desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
-    date: "2023-Present",
-    company: "Freelance Developer",
+    title: "Full Stack Web Developer Intern",
+    desc: "Development of a restaurant management platform with the MATRIX web application using Angular & .NET. Designed exclusively for administrators, it enables efficient management of restaurant operations.",
+    date: "July to August 2024",
+    company: "SILIAD",
+  },
+  {
+    title: "Mobile Developer Intern",
+    desc: "Design and development of a real-time bus tracking mobile application (for standard users and drivers) using Flutter and Firebase. Enables users to locate and track buses, calculate the actual distance between the user and the bus, as well as the approximate arrival time.",
+    date: "July to September 2023",
+    company: "YaneCode Digital",
+  },
+  {
+    title: "Mobile Developer Intern",
+    desc: "Design and development of a mobile application for managing a multiple-choice questionnaire, allowing students to take previous entrance exams for Moroccan prestigious schools.",
+    date: "July to August 2022",
+    company: "YaneCode Digital",
   },
 ];
 
@@ -77,10 +77,10 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Second-year student in the Computer Engineering program at ENSA
-              Safi, focusing on mobile and web development. Seeking a PFA
-              internship to apply and enhance skills in both mobile and web
-              development domains.
+              I`m a third-year student in Computer Engineering at ENSA Safi,
+              specializing in mobile and web development. With practical
+              experience already gained, I am currently seeking an
+              end-of-studies internship in mobile or web development
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -134,7 +134,12 @@ const AboutPage = () => {
               <Skill skill="React" />
               <Skill skill="Next.js" />
               <Skill skill="Angular" />
-              <Skill skill=".NET" />
+              <Skill skill="Blazor" />
+              <Skill skill="ASP.NET" />
+              <Skill skill="MAUI" />
+              <Skill skill="WPF" />
+              <Skill skill="Springboot" />
+              <Skill skill="Docker" />
               <Skill skill="Node.js" />
               <Skill skill="Express" />
               <Skill skill="Flutter" />
@@ -142,9 +147,11 @@ const AboutPage = () => {
               <Skill skill="MongoDB" />
               <Skill skill="MySQL" />
               <Skill skill="PostgreSQL" />
+              <Skill skill="SQL Server" />
               <Skill skill="SQLite" />
               <Skill skill="Firebase" />
               <Skill skill="Github" />
+              <Skill skill="Agile Scrum" />
             </motion.div>
 
             {/* SKILL SCROLL SVG */}
