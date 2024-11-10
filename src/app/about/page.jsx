@@ -9,13 +9,13 @@ import RightExperience from "./RightExperience";
 
 const experiences = [
   {
-    title: "Internship",
+    title: "Mobile Developer Intern",
     desc: "Design and development of a mobile application for managing a multiple-choice questionnaire, allowing students to take previous entrance exams for Moroccan prestigious schools.",
     date: "July to August 2022",
     company: "YaneCode Digital",
   },
   {
-    title: "Internship",
+    title: "Mobile Developer Intern",
     desc: "Design and development of a real-time bus tracking mobile application (for standard users and drivers) using Flutter and Firebase. Enables users to locate and track buses, calculate the actual distance between the user and the bus, as well as the approximate arrival time.",
     date: "July to September 2023",
     company: "YaneCode Digital",
@@ -25,6 +25,18 @@ const experiences = [
     desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
     date: "2023-Present",
     company: "Freelance Developer",
+  },
+  {
+    title: "Full Stack Web Developer Intern",
+    desc: "Development of a restaurant management platform with the MATRIX web application using Angular & .NET. Designed exclusively for administrators, it enables efficient management of restaurant operations.",
+    date: "July to August 2024",
+    company: "SILIAD",
+  },
+  {
+    title: "PFA Mobile Developer Intern",
+    desc: "Development of a medical management platform featuring a web application and a Flutter mobile app, supported by a PHP API to enable platform functionalities. The platform is designed for healthcare providers and patients to manage consultations and schedule follow-up appointments.",
+    date: "July to September 2024",
+    company: "WerinGroup",
   },
 ];
 
