@@ -9,11 +9,11 @@ import RightExperience from "./RightExperience";
 
 const experiences = [
   {
-    title: "Freelance Developer",
-    desc: "Development of mobile/web applications for clients, using Flutter, Angular, and Next.js.",
-    date: "2023-Present",
-    company: "Freelance Developer",
-  },
+    title: "Mobile Developer Intern",
+    desc: "Developing mobile applications using Flutter as part of my PFE internship.",
+    date: "2025-Present",
+    company: "Adria Business & Technology",
+},
   {
     title: "PFA Mobile Developer Intern",
     desc: "Development of a medical management platform featuring a web application and a Flutter mobile app, supported by a PHP API to enable platform functionalities. The platform is designed for healthcare providers and patients to manage consultations and schedule follow-up appointments.",
@@ -77,10 +77,9 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              I`m a third-year student in Computer Engineering at ENSA Safi,
-              specializing in mobile and web development. With practical
-              experience already gained, I am currently seeking an
-              end-of-studies internship in mobile or web development
+              I am a third-year Computer Engineering student at ENSA Safi,
+              specializing in mobile development with Flutter. Currently,
+              I am a Mobile Developer Intern at Adria Business & Technology as part of my PFE.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
@@ -131,6 +130,7 @@ const AboutPage = () => {
               animate={isSkillRefInView ? { x: 0 } : {}}
               className="flex gap-4 flex-wrap"
             >
+              <Skill skill="Flutter" />
               <Skill skill="React" />
               <Skill skill="Next.js" />
               <Skill skill="Angular" />
@@ -142,7 +142,6 @@ const AboutPage = () => {
               <Skill skill="Docker" />
               <Skill skill="Node.js" />
               <Skill skill="Express" />
-              <Skill skill="Flutter" />
               <Skill skill="Kotlin" />
               <Skill skill="MongoDB" />
               <Skill skill="MySQL" />
